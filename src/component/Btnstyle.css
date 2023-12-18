@@ -1,0 +1,25 @@
+.Btn1 {
+    height: 50px;
+    width: 50px;
+    background: #dde1e7;
+    box-shadow: -3px -3px 5px #ffffff70, 3px 3px 15px #00000070;
+    border: none;
+    text-align: center;
+    border-radius: 35px;
+
+}
+
+.Btnmain{
+
+    height: 600px;
+    width: 400px;
+    background: #dde1e7;
+    box-shadow: -3px -3px 5px #ffffff70, 3px 3px 15px #00000070;
+    border: none;
+    border-radius: 50px;
+}
+
+.caldisplay{
+    
+    /* background-color: rgb(227, 227, 227); */
+}
