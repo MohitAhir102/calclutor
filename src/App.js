@@ -1,16 +1,22 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/css/bootstrap.min.js";
 import Button  from "./component/Button";
-
 function App() {
+  const containerStyle = {
+    backgroundImage: `url("beautiful.jpg")`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "100vh", // Adjust this value as needed
+    width: "100%",
+    textAlign: "center",
+    paddingTop: "20vh" // Adjust this value as needed
+  };
   return (
-    <>
-    <div className="container">
-      <h1 className="d-flex justify-content-center align-items-center vh-75">Calculator</h1>
-      <Button />
+    <div style={containerStyle} className="watercolor-background ">
+      <div className="container" style={{display: 'flex', justifyContent: 'center'}} >
+        <Button />
       </div>
-    </>
+    </div>
   );
 }
-
 export default App;
